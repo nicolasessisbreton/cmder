@@ -20,7 +20,7 @@ go into the unzipped folder
 
 click on cmder
 
-avalaible command are:
+avalaible extra commands are:
 
 	- subl
 	- python
