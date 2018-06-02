@@ -68,7 +68,7 @@
 		"/C/Users/nessisbr/Documents/Python Scripts"
 	],
 	"last_version": 3176,
-	"last_window_id": 170,
+	"last_window_id": 171,
 	"log_indexing": false,
 	"settings":
 	{
@@ -910,6 +910,10 @@
 				"selected_items":
 				[
 					[
+						"confi",
+						"a_getting_started\\config.md"
+					],
+					[
 						"con",
 						"a_getting_started\\config.md"
 					],
@@ -1012,10 +1016,6 @@
 					[
 						"e simpl",
 						"mat\\e_excel_machine\\simple_call.py"
-					],
-					[
-						"confi",
-						"mat\\d_data_mining\\config.py"
 					],
 					[
 						"exer",
@@ -1984,6 +1984,14 @@
 						"buffer_size": 1605,
 						"line_ending": "Windows"
 					}
+				},
+				{
+					"file": "/C/Users/nessisbr/Desktop/mat/mat/README.md",
+					"settings":
+					{
+						"buffer_size": 216,
+						"line_ending": "Windows"
+					}
 				}
 			],
 			"build_system": "",
@@ -2287,7 +2295,7 @@
 			"groups":
 			[
 				{
-					"selected": 0,
+					"selected": 1,
 					"sheets":
 					[
 						{
@@ -2319,6 +2327,51 @@
 										"motion": null,
 										"motion_count": "",
 										"must_capture_register_name": false,
+										"partial_sequence": "",
+										"register": "\"",
+										"sequence": "",
+										"xpos": 0
+									}
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 1,
+							"type": "text"
+						},
+						{
+							"buffer": 1,
+							"file": "/C/Users/nessisbr/Desktop/mat/mat/README.md",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 216,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										1,
+										1
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Markdown/Markdown.sublime-syntax",
+									"vintage":
+									{
+										"_vintageous_glue_until_normal_mode": true,
+										"_vintageous_non_interactive": false,
+										"_vintageous_processing_notation": false,
+										"action": null,
+										"action_count": "",
+										"mode": "mode_insert",
+										"motion": null,
+										"motion_count": "",
+										"must_capture_register_name": false,
+										"normal_insert_count": "1",
 										"partial_sequence": "",
 										"register": "\"",
 										"sequence": "",
@@ -2935,7 +2988,7 @@
 				"_vintageous_reset_during_init": true,
 				"vintage":
 				{
-					"_cmdline_cd": "C:\\Users\\nessisbr\\Desktop\\mat\\mat\\a_getting_started"
+					"_cmdline_cd": "C:\\Users\\nessisbr\\Desktop\\mat\\mat"
 				}
 			},
 			"show_minimap": false,
