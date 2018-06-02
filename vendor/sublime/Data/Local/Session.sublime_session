@@ -68,7 +68,7 @@
 		"/C/Users/nessisbr/Documents/Python Scripts"
 	],
 	"last_version": 3176,
-	"last_window_id": 171,
+	"last_window_id": 172,
 	"log_indexing": false,
 	"settings":
 	{
@@ -2362,12 +2362,12 @@
 									"syntax": "Packages/Markdown/Markdown.sublime-syntax",
 									"vintage":
 									{
-										"_vintageous_glue_until_normal_mode": true,
+										"_vintageous_glue_until_normal_mode": false,
 										"_vintageous_non_interactive": false,
 										"_vintageous_processing_notation": false,
 										"action": null,
 										"action_count": "",
-										"mode": "mode_insert",
+										"mode": "mode_normal",
 										"motion": null,
 										"motion_count": "",
 										"must_capture_register_name": false,
@@ -2375,7 +2375,7 @@
 										"partial_sequence": "",
 										"register": "\"",
 										"sequence": "",
-										"xpos": 0
+										"xpos": 1
 									}
 								},
 								"translation.x": 0.0,
