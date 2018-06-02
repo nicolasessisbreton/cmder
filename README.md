@@ -8,8 +8,23 @@ a python ide with
 
 # installation
 	
-download as zip
+download
 
 unzip
 
 enjoy
+
+# usage
+
+go into the unzipped folder
+
+click on cmder
+
+avalaible command are:
+
+	- subl
+	- python
+	- pip
+	- xlwings
+	- git
+	- excel
