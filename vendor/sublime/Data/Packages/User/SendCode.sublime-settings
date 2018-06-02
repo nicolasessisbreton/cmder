@@ -1,0 +1,45 @@
+{
+    "prog": "cmder",
+    "auto_expand_line": true,
+    "auto_advance" : true,
+    "auto_advance_non_empty": false,
+    "bracketed_paste_mode": false,
+
+    "r" : {
+        "prog": "cmder",
+        // turn brackted paste mode on if rice or readline 7.0 is used
+        "bracketed_paste_mode": false
+    },
+
+    "rmd" : {
+        "prog": "cmder",
+        // turn brackted paste mode on if rice or readline 7.0 is used
+        "bracketed_paste_mode": false
+    },
+
+    "python" : {
+        "prog": "cmder",
+        "bracketed_paste_mode": true
+    },
+
+    "julia" : {
+        "prog": "cmder",
+        "bracketed_paste_mode": true
+    },
+
+
+    "conemuc": "C:\\Users\\nessisbr\\Desktop\\cmder\\vendor\\conemu-maximus5\\ConEmu\\ConEmuC64.exe",
+
+    // path related settings
+
+    // path to tmux
+    // "tmux": "tmux",
+
+    // path to screen
+    // "screen": "screen",
+
+    // path to ConEmuC.exe
+    // for cmder, the file is located at
+    // <path to cmder folder>\\vendor\\conemu-maximus5\\ConEmu\\ConEmuC.exe
+    // "conemuc": "ConEmuC.exe"
+}

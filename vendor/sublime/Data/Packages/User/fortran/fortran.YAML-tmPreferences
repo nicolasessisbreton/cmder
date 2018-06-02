@@ -1,0 +1,15 @@
+# [PackageDev] target_format: plist, ext: tmPreferences
+---
+name: Comments
+uuid: 40e092f2-ee49-4cbd-8afb-4a5c4f581463
+scope: source.fortran
+
+settings:
+
+  shellVariables:
+  - name: TM_COMMENT_START
+    value: '! '
+  - name: TM_COMMENT_START_2
+    value: '!&'
+  - name: TM_COMMENT_END_2
+    value: '&!'

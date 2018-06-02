@@ -1,0 +1,8 @@
+{
+	"scope": "source.fython",
+
+	"completions":
+	[
+        {"trigger": "llfjkfd", "contents": "logger('l_employee_valuation_stat', '$1')"},
+	]
+}

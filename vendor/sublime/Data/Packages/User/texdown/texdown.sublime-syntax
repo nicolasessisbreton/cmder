@@ -1,0 +1,28 @@
+%YAML 1.2
+---
+# http://www.sublimetext.com/docs/3/syntax.html
+name: texdown
+file_extensions:
+  - td
+scope: source.texdown
+contexts:
+  main:
+    - match: '^\s*>\.*([^\n]+)'
+      scope: meta.function.source.texdown
+      captures:
+        1: entity.name.function.source.texdown
+    - match: '^\s*#\s([^\n]+)'
+      scope: meta.function.source.texdown
+      captures:
+        1: entity.name.function.source.texdown
+    - match: '^\s*``(\w+[^\n]+)'
+      scope: meta.function.source.texdown
+      captures:
+        1: entity.name.function.source.texdown
+    - match: '^\s*=+\s*([^\n]+)'
+      scope: meta.function.source.texdown
+      captures:
+        1: entity.name.function.source.texdown
+
+
+

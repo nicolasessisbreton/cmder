@@ -1,0 +1,8 @@
+{
+	"completions":
+	[
+    	{ "trigger": "qqq", "contents": "type(cp_real_low_high_y) :: $0" },
+
+
+	]
+}

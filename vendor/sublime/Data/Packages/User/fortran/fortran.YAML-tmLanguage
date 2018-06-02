@@ -1,0 +1,102 @@
+# [PackageDev] target_format: plist, ext: tmLanguage
+---
+name: Fortran
+scopeName: source.fortran
+fileTypes: [f90,f95,f03,f08,fi]
+uuid: 2fe99d9a-cd8b-45a1-9008-56d3490f6a04
+
+patterns:
+
+# order matter: this block comment syntax should be before the line comment syntax
+- name: comment.block.fortran
+  begin: (?i)\!&
+  end: (?i)&\!
+  captures:
+    '0': {name: comment.line.exclamation-mark.fortran}
+
+- name: comment.line.exclamation-mark.fortran
+  match: (?i)\!.*
+
+- match: (?i)\b(program|module|function|subroutine)\s+(\w+)
+  captures:
+    '1': {name: storage.type.function.fortran}
+    '2': {name: entity.name.function.fortran}
+- match: (?i)^\s*(end)\s*(program|module|function|subroutine)(?:\s+(\w+))?
+  captures:
+    '1': {name: keyword.control.fortran}
+    '2': {name: storage.type.type.fortran}
+    '3': {name: comment.fortran}
+- name: meta.interface.fortran
+  begin: (?i)\b(interface|abstract interface)\b
+  beginCaptures:
+    '1': {name: keyword.other.fortran}
+  end: (?i)^\s*(end)\s*(interface)
+  endCaptures:
+    '1': {name: keyword.control.fortran}
+    '2': {name: keyword.other.fortran}
+  patterns:
+    - match: (?i)^\s*(module\s+procedure)\s+(\w+)
+      captures:
+        '1': {name: storage.type.type.fortran}
+        '2': {name: support.function.fortran}
+    - match: (?i)\b(program|module|function|subroutine)\s+(\w+)
+      captures:
+        '1': {name: storage.type.function.fortran}
+        '2': {name: support.function.fortran}
+    - include: $self
+- name: constant.numeric.float.fortran
+  match: (?i)\b\d+\.\d*([de][+-]?\d+)?\b
+- name: constant.numeric.integer.fortran
+  match: (?i)\b([1-9][0-9]*|0)\b
+- name: constant.language.fortran
+  match: (?i)\.(true|false)\.
+- name: keyword.other.fortran
+  match: (?i)\b(use|only|contains|call|result|include)\b
+- match: (?i)\b(len|kind)\s*\=
+  captures:
+    '1': {name: keyword.other.fortran}
+- name: keyword.control.fortran
+  match: (?i)\b(if|then|else|endif|select|case|default|endselect|do|while|enddo|end|where)\b
+- name: keyword.control.fortran
+  match: (?i)\b(|exit|cycle|return|stop|go\s+to|end|forall|endforall)\b
+- name: keyword.operator.logical.fortran
+  match: (?i)\.(and|or|not)\.
+- name: keyword.operator.comparison.fortran
+  match: (?i)\.(eq|gt|lt|ge|le|ne)\.
+- name: keyword.operator.comparison.fortran
+  match: (?i)\=\=|>\=|<\=|>|<|/\=
+- name: keyword.operator.arithmetic.fortran
+  match: (?i)\+|\-|\*|\*\*|/
+- name: keyword.operator.other.fortran
+  match: (?i)\=|\=>|(\:)|(\:\:)|//|%
+- name: string.quoted.double.fortran
+  match: (?i)\"([^"]*)\"
+- name: string.quoted.single.fortran
+  match: (?i)\'([^']*)\'
+- match: (?i)(?<=\()(in|out|inout)(?=\))
+  captures:
+    '1': {name: keyword.other.fortran}
+- name: support.function.fortran
+  match: (?i)\b(present|allocate|deallocate|write|size|nullify|open|close|inquire|lbound|ubound|sin|cos|asin|acos|tan|atan)(?=\s*\()
+- name: support.function.fortran
+  match: (?i)\b(print)\b
+- name: support.function.fortran
+  match: (?i)\b(selected_real_kind|allocated|shape)(?=\s*\()
+- name: support.function.fortran
+  match: (?i)(\s+)\b(sum|product|count|matmul|ceiling|max|min|maxval|minval|maxloc|minloc)(?=\s*\()
+- name: support.function.fortran
+  match: (?i)\b(d?(sqrt|abs|erf|log|exp))(?=\s*\()
+- name: support.function.fortran
+  match: (?i)\b(trim|adjustl|dot_product|all|any|reshape|transpose)(?=\s*\()
+- name: storage.modifier.fortran
+  match: (?i)\b(implicit|none)\b
+- name: storage.modifier.fortran
+  match: (?i)\b(private|public|parameter|optional|allocatable|dimension|pointer|target|intent|procedure)\b
+- name: storage.modifier.fortran
+  match: (?i)\b(recursive|pure|elemental)\b
+- name: storage.type.fortran
+  match: (?i)\b(integer|real|complex|logical|character|type|double precision)\b
+- match: (?i)^\s*(end)\s*(type)
+  captures:
+    '1': {name: keyword.control.fortran}
+    '2': {name: storage.type.type.fortran}

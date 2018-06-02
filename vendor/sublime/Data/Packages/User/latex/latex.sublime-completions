@@ -1,0 +1,18 @@
+{
+	"scope": "text.tex",
+
+	"completions":
+	[
+    	{ "trigger": "aa", "contents": "\\begin{align}\n\t$0\n\\end{align}" },
+    	{ "trigger": "as", "contents": "\\begin{align*}\n\t$0\n\\end{align*}" },
+
+    	{ "trigger": "dd", "contents": "% arara: pdflatex\n\\documentclass[12pt]{article}\n\n\n\\begin{document}\n\n\t$0\n\n\\end{document}" },
+
+    	{ "trigger": "ss", "contents": "\\subsection{$1}\n\t\\label{$0}\n\t\\input{$0}\n\n" },
+
+    	{ "trigger": "ff", "contents": "\\begin{frame}\n\n$0\n\n\\end{frame}" },
+
+        { "trigger": "tt", "contents": "\\begin{tab}\n\t$0\n\\end{tab}" },
+
+	]
+}

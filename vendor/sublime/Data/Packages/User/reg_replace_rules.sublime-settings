@@ -1,0 +1,107 @@
+{
+	"replacements": 
+	{
+
+		"fmt1": 
+		{
+			"find": "(-?\\d+)\\.0+",
+			"replace": "\\1",
+			"greedy": true,
+		},
+		"fmt2": 
+		{
+			"find": "\\.0+",
+			"replace": "0",
+			"greedy": true,
+		},
+		"fmt3": 
+		{
+			"find": "[,\\(\\)]",
+			"replace": "",
+			"greedy": true,
+		},
+
+
+		// fython
+		"xip_on": 
+		{
+			"find": "#xip",
+			"replace": "xip",
+			"greedy": true,
+		},
+
+		"xip_off": 
+		{
+			"find": "(?<!#)xip",
+			"replace": "#xip",
+			"greedy": true,
+		},
+
+		"print_on": 
+		{
+			"find": "#print",
+			"replace": "print",
+			"greedy": true,
+		},
+
+		"print_off": 
+		{
+			"find": "(?<![#|\\w|\\.|\\(])print",
+			"replace": "#print",
+			"greedy": true,
+		},
+
+		"remove_fython_warnings": 
+		{
+			"find": "\\|.*\\n",
+			"replace": "",
+			"greedy": true,
+		},
+
+		// round number
+		"truncate_to_two_decimals": 
+		{
+			"find": "\\.(\\d\\d)\\d*",
+			"replace": ".\\1",
+			"greedy": true,
+		},
+
+		"lower_case_exponent": 
+		{
+			"find": "(\\d)E([\\+-])0?",
+			"replace": "\\1e\\2",
+			"greedy": true,
+		},
+
+
+		"remove_blank_lines": 
+		{
+			"find": "^\\s*\n",
+			"replace": "",
+			"greedy": true,
+		},
+
+		"remove_array_temporary_was_created_1": 
+		{
+			"find": "^(python3|_ctypes|forrtl).*\n",
+			"replace": "",
+			"greedy": true,
+		},
+
+		"remove_array_temporary_was_created_2": 
+		{
+			"find": "\nImage.*PC.*\n",
+			"replace": "",
+			"greedy": true,
+		},
+
+		"remove_array_temporary_was_created_3": 
+		{
+			"find": ".*\\.so.*\n",
+			"replace": "",
+			"greedy": true,
+		},
+
+	},
+
+}

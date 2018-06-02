@@ -1,0 +1,15 @@
+{
+	"scope": "source.python",
+
+	"completions":
+	[
+    	{ "trigger": "cc", "contents": "from .config import *\n\nclass $1(Base):\n\tdef __init__(s, ctx, ast):\n\t\tsuper().__init__(ctx, ast)\n\t\t$2"},
+    	{ "trigger": "mm", "contents": "from .config import *\n\ndef $1(s, ast):\n\t$2"},
+
+    	{ "trigger": "pp", "contents": "def p_$1(p):\n\t\"\"\"\n\t$2\t:\t$3\n\t\"\"\"\n\t$4"},
+    	{ "trigger": "gg", "contents": "from ..config import *"},
+    	{ "trigger": "ee", "contents": "class $1(FyException):\n\tpass\n"},
+
+	]
+}
+

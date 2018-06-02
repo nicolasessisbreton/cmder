@@ -1,0 +1,23 @@
+{
+	"scope": "text.restructuredtext",
+
+	"completions":
+	[
+		{ "trigger": "cs", "contents": ".. code-block:: shell\n\n\t$1\n" },
+        { "trigger": "cp", "contents": ".. code-block:: python\n\n\t$1\n" },
+        { "trigger": "cf", "contents": ".. code-block:: fython\n\n\t$1\n" },
+        { "trigger": "cn", "contents": ".. code-block:: fortran\n\n\t$1\n" },
+       
+		{ "trigger": "ls", "contents": ".. literalinclude:: $1\n:language: shell\n" },
+		{ "trigger": "lp", "contents": ".. literalinclude:: $1\n:language: python\n" },
+		{ "trigger": "lf", "contents": ".. literalinclude:: $1\n:language: fython\n" },
+		{ "trigger": "ln", "contents": ".. literalinclude:: $1\n:language: fortran\n" },
+
+        { "trigger": "tt", "contents": ".. toctree::\n\t:hidden:\n\n\t$1" },
+
+        { "trigger": "ii", "contents": ".. include:: $1.rst" },
+
+        { "trigger": "ff", "contents": ".. literalinclude:: ../../example/stat/stat/$1/$2.fy" },
+        { "trigger": "pp", "contents": ".. literalinclude:: ../../example/stat/stat/$1/$2.py" },
+	]
+}

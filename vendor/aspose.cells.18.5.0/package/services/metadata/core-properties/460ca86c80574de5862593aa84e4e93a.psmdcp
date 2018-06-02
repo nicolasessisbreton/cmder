@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<coreProperties xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.openxmlformats.org/package/2006/metadata/core-properties">
+  <dc:creator>Aspose</dc:creator>
+  <dc:description>Aspose.Cells for .NET is a spreadsheet programming library that allows software developers to manipulate and convert spreadsheet files from within their own applications. A combination of APIs and GUI controls, Aspose.Cells for .NET speeds up Microsoft Excel programming and conversion. Aspose.Cells for .NET supports the popular spreadsheet (XLS, XLSX, XLSM, XLSB, XLTX, XLTM, CSV, TSV, SpreadsheetML, ODS) file formats your business use every day. It also allows exporting Excel files to PDF, XPS, HTML, MHTML, Plain Text and popular image formats including TIFF, JPG, PNG, BMP and SVG.
+
+Aspose.Cells for .NET is well documented to help you create your solutions on different platforms.
+
+Advanced Excel Spreadsheet Features
+
+Aspose.Cells for .NET not only supports spreadsheet generation and other basic file formatting features, it also supports a number of advanced features:
+- File Formats and Conversions: High quality conversions to and from XLS, XLSX, SpreadsheetML, CSV, HTML, TXT, Tab delimited and OpenDocument Spreadsheet formats.
+- Rendering and Printing: Convert whole workbook or pages in the worksheets to PDF, XPS. Also convert document pages to TIFF, PNG, JPEG, BMP or EMF images. All with high fidelity - exactly like Microsoft Excel®.
+- Spreadsheet Features: A rich object model which allows you to programmatically generate, combine, modify, format, protect, parse or otherwise examine loaded spreadsheets.
+- PageSetup Features: Implement PageSetup options for your worksheets with ease.
+- Extended Excel Graphics Capabilities: Create and manipulate charts, add customized charts using the product API and dynamically set data for charts. It also supports to convert charts to images.
+
+Platform Independence
+
+You can use Aspose.Cells for .NET to build any type of a 32-bit or 64-bit .NET application including ASP.NET, WCF, WinForms, UWP, .NET Standard, .NET Core etc. It is possible to use Aspose.Cells for .NET via COM Interop from ASP, Perl, PHP and Python. You can also use Aspose.Cells for .NET to build applications with Mono.
+
+Performance and Scalability
+
+Aspose.Cells is a single .NET assembly that can be deployed with any .NET application by simply copying it. You do not have to worry about any other services or modules. You can generate thousands of spreadsheets in quick time that involves opening a workbook, modifying content and formatting or populating it with data and saving it. 
+
+Microsoft Office Automation – Not Needed
+
+Aspose.Cells for .NET APIs are built using managed code that do never need Microsoft Office or Microsoft Excel to be installed on the machine to work with Excel document formats. It is a perfect Microsoft Office automation alternative in terms of supported features, security, stability, scalability, speed and price.
+
+Aspose.Cells Grid Suite
+
+Aspose.Cells for .NET also provides independent .NET GUI controls for desktop and web applications:
+- Desktop Control for Windows Forms Applications
+- Web Control for ASP.NET Web Forms Applications
+(Apply formatting and formulae, import and export (DataTable, DataView), open, save and edit MS Excel files using the controls)
+
+Free support for Aspose.Cells for .NET is provided on our support forum:
+https://forum.aspose.com/
+and on StackOverflow:
+https://stackoverflow.com/questions/tagged/aspose</dc:description>
+  <dc:identifier>Aspose.Cells</dc:identifier>
+  <version>18.5</version>
+  <keywords>Excel Spreadsheet Aspose.Cells XLS XLSX CSV TSV TXT ODS</keywords>
+  <lastModifiedBy>NuGet, Version=4.5.0.4, Culture=neutral, PublicKeyToken=31bf3856ad364e35;Microsoft Windows NT 6.2.9200.0;.NET Framework 4.5</lastModifiedBy>
+</coreProperties>
